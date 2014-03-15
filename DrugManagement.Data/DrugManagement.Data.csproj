@@ -53,6 +53,12 @@
     <Compile Include="Helper\RepositoryFactories.cs" />
     <Compile Include="Helper\RepositoryProvider.cs" />
     <Compile Include="ManagementDbContext.cs" />
+    <Compile Include="ManagementUow.cs" />
+    <Compile Include="Migrations\201403011004528_InitialMigration.cs" />
+    <Compile Include="Migrations\201403011004528_InitialMigration.Designer.cs">
+      <DependentUpon>201403011004528_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,8 +75,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201403011004528_InitialMigration.resx">
+      <DependentUpon>201403011004528_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

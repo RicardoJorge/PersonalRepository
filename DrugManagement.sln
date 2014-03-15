@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugManagement.Data", "Drug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugManagement.Data.Contracts", "DrugManagement.Data.Contracts\DrugManagement.Data.Contracts.csproj", "{F2C5AD71-FE06-4B2D-944C-38C220BFDF72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugManagement.Tests", "DrugManagement.Tests\DrugManagement.Tests.csproj", "{38CC698B-0C8A-476D-864D-CF99353693FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2C5AD71-FE06-4B2D-944C-38C220BFDF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C5AD71-FE06-4B2D-944C-38C220BFDF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C5AD71-FE06-4B2D-944C-38C220BFDF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CC698B-0C8A-476D-864D-CF99353693FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CC698B-0C8A-476D-864D-CF99353693FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CC698B-0C8A-476D-864D-CF99353693FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CC698B-0C8A-476D-864D-CF99353693FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

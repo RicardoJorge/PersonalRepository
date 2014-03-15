@@ -32,7 +32,7 @@ namespace DrugManagement.Data
 
         public virtual void Add(T entity)
         {
-            DbEntityEntry dbEntityEntry = DbContext.Entry(entity);
+             DbEntityEntry dbEntityEntry = DbContext.Entry(entity);
             if (dbEntityEntry.State != EntityState.Detached)
             {
                 dbEntityEntry.State = EntityState.Added;

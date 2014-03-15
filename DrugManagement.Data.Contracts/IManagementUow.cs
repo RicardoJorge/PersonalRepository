@@ -2,9 +2,9 @@
 
 namespace DrugManagement.Data.Contracts
 {
-    public interface ILeadsUow
+    public interface IManagementUow
     {
         int Commit();
-        IRepository<Drug> Parceiros { get; }
+        IRepository<Drug> Drugs { get; }
     }
 }
